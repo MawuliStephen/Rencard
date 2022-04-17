@@ -1,0 +1,251 @@
+topnav {
+display:flex;
+background:none;
+display: inline-block;
+width:100%;
+padding:0px;
+}
+
+
+tittle {
+position: relative;
+width: 223px;
+height: 62px;
+font-size:50px;
+color: #7e57c2;
+line-height: 68px;
+left:100px;
+}
+
+logo{
+float:left;
+color:#FFFF; /* use this color if page background is white #7e57c2 */
+font-size:50px;
+margin-left:50px;
+}
+
+img {float:right;
+  margin-top:-30px;
+  height:auto;
+  width:43%;}
+
+
+body {
+background-color: #7E57C2;
+padding: 0px;
+font-family: 'Open Sans';
+position: relative;
+border-radius: 20px;
+}
+
+/*Paragraph style*/
+
+p {position: absolute;
+width: 820px;
+height: 207px;
+left: 100px;
+top: 285px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 68px;
+color: #FFFFFF;
+}
+
+.button {
+  background-color: #7E57C2;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+ 
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+border-radius: 2px;
+background-color: #7E57C2;
+border: solid #fff 2px;
+color: #fff;  
+text-align: center;
+text-decoration: none;
+font-size: 25px;
+margin: 4px 2px;
+cursor: pointer;
+top: 590px;
+border-radius: 10px;
+position: absolute;
+width: 408px;
+height: 87px;
+left: 100px;
+}
+
+.button2 {
+border: solid #7E57C2 3px;
+position: absolute;
+border-radius: 100%;
+font: 50px;
+top:20px;
+left:1720px;
+height: 100px;
+width: 100px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);			
+}
+
+/* unsplash:lFmuWU0tv4M */
+.img-container {
+position: absolute;
+width: 705px;
+height: 775px;
+left: 1115px;
+top: 285px;
+border-radius: 10px;
+}
+
+
+
+/*RESPONSIVENESS */
+
+/* desktop */
+@media (min-width: 900px) and (orientation: landscape){
+
+body{
+margin-right: 0px;
+overflow:none;
+
+}
+
+
+tittle {
+font-size:40px;
+top: 40px;
+line-height: 68px;
+left:50px;
+}
+  
+topnav {
+background:none;
+display: flex;
+width:100%;
+height:auto;
+margin:none;
+}
+
+
+logo {
+float:left;
+color:#FFFF; /* use this color if page background is white #7e57c2 */
+font-size:50px;
+margin-left:50px;
+top:0px;
+
+}
+
+img {float:right;
+  margin-top:-80px;
+  height:auto;
+  width:43%;
+  z-index:-1;
+  overflow:hidden;
+  }
+
+p {position: absolute;
+width: 620px;
+height: 207px;
+left: 50px;
+top: 170px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 550;
+font-size: 50px;
+line-height: 68px;
+color: #FFFFFF;
+
+}
+
+
+form {
+position: absolute;
+width:200px;
+border-radius:10px;
+top:250px;
+text-align: left;
+left:50px;
+}
+
+input {
+width:400px;
+height:40px;
+border-radius:10px;
+order: solid #7E57C2 2px;
+text-align:left;
+font-size:25px;
+font-family:'open sans';
+padding:10px;
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+background: #FFFF;
+left:50px;
+}
+
+button {
+  background-color: white;
+  border: solid #7E57C2 2px ;
+  color: #7E57C2;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: absolute;
+  width: 208px;
+  height: 57px;
+
+}
+
+
+.button1 {
+  border-radius: 2px;
+  background-color: #7E57C2;
+  border: solid #fff 2px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  top: 475px;
+  border-radius: 10px;
+  position: absolute;
+  width: 208px;
+  height: 57px;
+  left: 50px;
+				
+}
+
+.button2 {
+display:inline-block;
+border: solid #7E57C2 3px;
+position: absolute;
+border-radius: 100%;
+font: 50px;
+top:0px;
+left:1255px;
+height: 50px;
+width: 50px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			
+}
+
+/* unsplash:lFmuWU0tv4M */
+.img-container {
+position: absolute;
+width: 300px;
+height: auto;
+top: 290px;
+left: 950px;
+border-radius: 10px;
+z-index:2;
+}
